@@ -1,3 +1,8 @@
+# IDE and OS junk
+.DS_Store
+.vscode
+.idea
+
 node_modules
 ./ligma.config.js
 dist

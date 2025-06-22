@@ -4,7 +4,6 @@ test("min heap", function () {
     const heap = new MinHeap();
 
     expect(heap.length).toEqual(0);
-
     heap.insert(5);
     heap.insert(3);
     heap.insert(69);

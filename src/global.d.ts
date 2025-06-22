@@ -27,6 +27,8 @@ declare type WeightedAdjacencyMatrix = number[][]; // A number means weight
 declare type AdjacencyList = number[][];
 declare type AdjacencyMatrix = number[][]; // A 1 means connected
 
+declare type Maybe<T> = T | null | undefined
+
 declare type BinaryNode<T> = {
     value: T;
     left: BinaryNode<T> | null;
